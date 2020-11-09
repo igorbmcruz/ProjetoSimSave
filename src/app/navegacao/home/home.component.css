@@ -1,0 +1,15 @@
+br {
+    display: block; 
+    margin: 300px; 
+}
+
+.img-fluid {
+    background-image: url(/assets/banner@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.card-body {
+    margin-bottom: 5px;
+}

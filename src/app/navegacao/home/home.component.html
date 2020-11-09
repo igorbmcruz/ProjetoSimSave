@@ -1,0 +1,33 @@
+<!-- Content -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+<header class="img-fluid" >
+  <div class="container main-container">
+    <br>
+            <div class="row text-center">
+              <div *ngFor="let produto of produtos" class="col-lg-3 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h4 class="card-title">{{ produto.title }}</h4>
+                          <p class="card-text">{{ produto.text }}</p>
+                        </div>
+                        <div class="card-footer">
+                          <button mat-stroked-button>{{ produto.footer }}</button>
+                        </div>
+                      </div>
+              </div> 
+            </div>
+               
+  </div>
+  
+      <div class="card text-center">
+        <div class="card-body col-6 align-self-center rounded col-md-3 bg-primary text-white text-center p-2">
+          <h5 class="card-title">Ainda não é assinante?</h5>
+          <p class="card-text">Cadastre-se gratuitamente e descubra como vários de profissionais da área da saúde 
+            estão aprimorando seus estudos através do método inovador SimSave.</p>
+          <a class="btn btn-light" [routerLink]="['/login']">Cadastre-se</a>
+        </div>
+      </div>
+</header>
+
+<!-- END Content -->

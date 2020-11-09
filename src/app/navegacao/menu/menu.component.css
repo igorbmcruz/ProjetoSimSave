@@ -1,0 +1,17 @@
+
+.nav-item1 {
+    letter-spacing: 2px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-color: #000;
+}
+
+.nav-item2 {
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.border-dark, .border-primary {
+    width: 150px;
+}

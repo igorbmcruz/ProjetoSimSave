@@ -1,0 +1,14 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto; }
+
+.main-container{
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
