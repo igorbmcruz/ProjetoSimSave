@@ -6,5 +6,4 @@ Este projeto foi criado com [Angular CLI](https://github.com/angular/angular-cli
 
 A API foi consumida através do JSON-SERVER (https://github.com/typicode/json-server)
 
-## Imagens do Projeto
 
