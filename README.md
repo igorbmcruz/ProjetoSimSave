@@ -8,4 +8,4 @@ A API foi consumida através do JSON-SERVER (https://github.com/typicode/json-se
 
 ## Imagens do Projeto
 
-![alt text](http://url/to/img.png)
+![alt text](https://imgur.com/a/onFy9f6)
